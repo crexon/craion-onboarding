@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		81CBCEE32C2B2D12005DD2E7 /* crAion_OnboardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBCEE22C2B2D12005DD2E7 /* crAion_OnboardingApp.swift */; };
-		81CBCEE52C2B2D12005DD2E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBCEE42C2B2D12005DD2E7 /* ContentView.swift */; };
+		81CBCEE52C2B2D12005DD2E7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBCEE42C2B2D12005DD2E7 /* OnboardingView.swift */; };
 		81CBCEE72C2B2D13005DD2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CBCEE62C2B2D13005DD2E7 /* Assets.xcassets */; };
 		81CBCEEA2C2B2D13005DD2E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CBCEE92C2B2D13005DD2E7 /* Preview Assets.xcassets */; };
+		81CBCEF12C2B2DC8005DD2E7 /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBCEF02C2B2DC8005DD2E7 /* Haptic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		81CBCEDF2C2B2D12005DD2E7 /* crAion Onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "crAion Onboarding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CBCEE22C2B2D12005DD2E7 /* crAion_OnboardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crAion_OnboardingApp.swift; sourceTree = "<group>"; };
-		81CBCEE42C2B2D12005DD2E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81CBCEE42C2B2D12005DD2E7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		81CBCEE62C2B2D13005DD2E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81CBCEE92C2B2D13005DD2E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81CBCEF02C2B2DC8005DD2E7 /* Haptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				81CBCEE22C2B2D12005DD2E7 /* crAion_OnboardingApp.swift */,
-				81CBCEE42C2B2D12005DD2E7 /* ContentView.swift */,
+				81CBCEE42C2B2D12005DD2E7 /* OnboardingView.swift */,
+				81CBCEF02C2B2DC8005DD2E7 /* Haptic.swift */,
 				81CBCEE62C2B2D13005DD2E7 /* Assets.xcassets */,
 				81CBCEE82C2B2D13005DD2E7 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81CBCEE52C2B2D12005DD2E7 /* ContentView.swift in Sources */,
+				81CBCEF12C2B2DC8005DD2E7 /* Haptic.swift in Sources */,
+				81CBCEE52C2B2D12005DD2E7 /* OnboardingView.swift in Sources */,
 				81CBCEE32C2B2D12005DD2E7 /* crAion_OnboardingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
